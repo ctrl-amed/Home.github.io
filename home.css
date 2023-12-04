@@ -1,0 +1,566 @@
+.wrapper {
+    width: 100%;
+    min-height: 100vh; /* Ensure at least full viewport height */
+    background-color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    .umak {
+        font-size: 2rem;
+    }
+
+    .contact > a,
+    .try > a,
+    .news > a,
+    .sched > a,
+    .gall > a,
+    .about > a,
+    .home > a {
+        font-size: 1.2rem;
+    }
+
+    /* Add more responsive adjustments as needed */
+}
+.umak {
+    display: flex;
+    max-width: 760px;
+    height: 48px;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; /* Center the content vertically */
+    color: #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem; /* Responsive font size */
+    font-weight: 800;
+    float: inline-end;
+}
+
+.header {
+    width: 100%;
+    height: auto;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header1 {
+    width: 100%;
+    height: 60px;
+    background-color: #111C4E;
+    flex-shrink: 0;
+}
+
+
+
+.contact > a,
+.try > a,
+.news > a,
+.sched > a,
+.gall > a,
+.about > a,
+.home > a {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: clamp(1rem, 1vw, 1.5rem);
+    font-weight: 800;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-right: 20px;
+    float: inline-end;
+    text-size-adjust: 100%;
+    
+    
+}
+
+.logo1{
+    width: 85px;
+    height: 85px;
+    flex-shrink: 0;
+    Display: flex;
+    Justify-content: center;
+    Align-items: center;
+    float: left;
+    margin-left: 20px;
+    position: absolute;
+
+}
+.logo2{
+    width: 85px;
+    height: 85px;
+    flex-shrink: 0;
+    Display: flex;
+    Justify-content: center;
+    Align-items: center; 
+    float: left;
+    margin-left: 120px;
+    position: absolute;
+}
+
+
+
+.picture {
+    width: 100%;
+    height: 50vh; /* Responsive height */
+    max-height: 600px;
+    background: #051430;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(6, 11, 84, 0.6), rgba(6, 11, 84, 0.6)), url("images/picture1.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    background-position: 50%
+}
+
+.logo3{
+    width: 161px;
+    height: 161px;
+    flex-shrink: 0;
+    display: flex;
+    Justify-content: center;
+    Align-items: center;
+    margin-top: -250px;
+    opacity: 100%;
+    flex-direction: column;
+    position: absolute;
+    min-width: 161px;
+    padding-top: 0% ;
+}   
+.welc {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5rem; /* Responsive font size */
+    font-weight: 800;
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+}
+.welc1 {
+    display: flex;
+    width: 628px;
+    height: 49px;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.15px;
+    Display: flex;
+    Justify-content: center;
+    Align-items: center;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 20px;
+}
+
+.join   {
+    width: 500px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 54px;
+    background: #FFC700;
+    margin-top: 150px;
+}
+
+.join1 a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #111C4E;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: auto;
+    margin-top: 8px;
+    text-decoration: none;
+}
+
+.calendar {
+    width: 100%;
+    max-width: 550px; /* Adjust as needed */
+    height: auto; /* Responsive height */
+    background: #F1F1F1;
+    margin: 20px auto; /* Center horizontally and provide top margin */
+    position: absolute;
+    display: flex;
+    float: left;
+    margin-left: 1vh;
+    margin-top: 0%;
+}
+.calendar1 {
+    width: 100%;
+    height: 60px;
+    background: #111C4E;
+    margin-top: 5%; /* Responsive margin from the top */
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.arrowl,
+.arrowr {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    position: absolute;
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.arrowl {
+    left: 50px; /* Adjust as needed */
+    background-image: url(images/arrowl.png);
+}
+
+.arrowr {
+    right: 50px; /* Adjust as needed */
+    background-image: url(images/arrowr.png);
+}
+.month {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3vw; /* Responsive font size */
+    font-weight: 800;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.monthpic {
+    width: 100%;
+    max-width: 520px; /* Adjust as needed */
+    height: auto;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.events{
+    width: auto;
+    min-width: 100px;
+    height: 485px; 
+    background: #F1F1F1; 
+    Display: flex; 
+    margin-top: 1%;
+    margin-left: 590px;
+    position: relative;
+
+}
+
+
+.events1{
+    width: auto;
+    height: 42px;
+    flex-shrink: 0;
+    background: #111C4E;
+    Display: flex;
+    Justify-content: center;
+    Align-items: center;
+    margin-top: 35px;
+}
+
+.events2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 1px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: -10px;
+
+
+}
+.contain{
+    width: 100%;
+    height: 100%;
+    background: #FFF;
+    flex-shrink: 0;
+    position: relative;
+    
+}
+.footer{
+    width: 100%;
+    height: 269px;
+    flex-shrink: 0;
+    background: #111C4E;
+    position: absolute;
+    margin-top: 1vh;
+
+}
+
+.footlogo{
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    Display: flex;
+    Justify-content: center;
+    Align-items: center;
+    float: left;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 30px;
+}
+
+.foot1{
+    color: #FFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: clamp(0.5rem, 1vw, 1.5rem);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-weight: 800;
+    margin-left: 15%;
+    margin-top: 25px;
+    position: absolute;
+    letter-spacing: 2px;
+}
+
+.foot2{
+    color: #FFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: clamp(0.5rem, 1vw, 1.5rem);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-weight: 600;
+    margin-left: 15%;
+    margin-top: 50px;
+    position: absolute;
+}
+.foot3{
+    color: #FFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: clamp(0.1rem, 1vw, 1rem);
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    font-weight: 400;
+    margin-left: 15%;
+    margin-top: 75px;
+    position: absolute;
+    
+}
+
+.foot4 > a{
+    color: #FFC700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: clamp(0.1rem, 1vw, 1rem);
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    font-weight: 400;
+    margin-left: 15%;
+    margin-top: 140px;
+    text-decoration: none;
+    position: absolute;
+}
+
+.got1{
+    color: #FFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: clamp(0.5rem, 1vw, 1.5rem);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-weight: 800;
+    margin-left: 0px;
+    margin-top: 3%;
+    float: right;
+    margin-right: 3%;
+    letter-spacing: 3px;
+}
+
+.got2{
+    width: 151px;
+    height: 33px;
+    flex-shrink: 0;
+    Display: flex;
+    Justify-content: center;
+    Align-items: center;
+    background: #FFC700;
+    position: absolute;
+    border-radius: 54px;
+    float: right;
+    margin-top: 10px;
+    
+}
+
+.got3 > a{
+    color: #111C4E;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: clamp(0.5rem, 1vw, 1rem);
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 0px;
+}
+
+.follow1{
+    color: #9DB1CC;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: clamp(0.5rem, 1vw, 1.5rem);
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    float: right;
+    position: relative;
+    margin-top: 25px;
+    margin-right: 5%;
+}
+
+.fb{
+    width: 29px;
+    height: 32px;
+    flex-shrink: 0;
+    background: url(images/fb.png), no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    Display: flex;
+    Justify-content: center;
+    Align-items: center;
+}
+
+.fb1{
+    color: #FFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 100px;
+    Display: flex;
+    Justify-content: center;
+    Align-items: center;
+}
+.tiktok{
+    width: 29px;
+    height: 32px;
+    flex-shrink: 0;
+    background: url(images/tiktok.png), no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    Display: flex;
+    Justify-content: center;
+    Align-items: center;
+}
+
+.tiktok1{
+    color: #FFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 80px;
+    Display: flex;
+    Justify-content: center;
+    Align-items: center;
+}
+
+.quick{
+    color: #9DB1CC;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: clamp(0.5rem, 1vw, 1.5rem);
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    float: right;
+    position: relative;
+    margin-top: 25px;
+    margin-right: 6%;
+}
+
+.roster > a,
+.About > a,
+.schedule > a,
+.common > a,
+.cont > a
+{
+    color: #FFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    Display: flex;
+    text-decoration: none;
+    text-size-adjust: 100%;
+    margin-left: 25px;
+}
+
+.footlast{
+    width: auto;
+    height: 43px;
+    flex-shrink: 0;
+    background: #06143B;;
+    margin-top: 200px;
+}
+
+.hct,
+.all{
+    color: #FFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10px;
+}
+.hct{
+    float: inline-start;
+    margin-left: 20px;
+
+}
+
+.all {
+float: inline-end;
+margin-right: 30px;
+
+}
